@@ -9049,11 +9049,17 @@ table{
 }
 
 table td{
-  border-style: ridge;
+  border-style: solid;
   border-width: 1px;  
 
 }
 
+table th{
+  border-style: solid;
+  border-width: 1px;
+  border-top: solid;
+
+}
 .divisao{
   position: relative;
   width: 80%;
